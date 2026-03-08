@@ -45,7 +45,7 @@ The architecture allows developers to add new inspection features and modules as
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/runtime-inspector.git
+git clone https://github.com/baconroaster23/runtime-inspector.git
 cd runtime-inspector
 ```
 
