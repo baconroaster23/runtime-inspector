@@ -14,7 +14,7 @@ int main() {
     int pid = 0;
 
 
-    // 2️⃣ Ask user for PID
+    
     printf("\nEnter PID of process to inspect: ");
     if (scanf("%d", &pid) != 1 || pid <= 0) {
         printf("Invalid PID!\n");
@@ -23,11 +23,11 @@ int main() {
 
     printf("Selected PID: %d\n", pid);
 
-    // 3️⃣ Optional: Show a small hex dump of first 64 bytes
+    
     printf("\nMemory at 0x400000:\n");
     hex_dump(pid, 0x400000, 64);
     start_ui();
-    // 4️⃣ Launch Lua console
+    
     start_lua_console();
 
     printf("\nExiting Runtime Inspector.\n");
